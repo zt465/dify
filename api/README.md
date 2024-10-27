@@ -86,3 +86,9 @@
    poetry run -C api bash dev/pytest/pytest_all_tests.sh
    ```
 
+### 项目初始化数据库表报pgsql错误
+```bash
+poetry add psycopg2-binary==2.9.3
+```
+
+
